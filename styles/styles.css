@@ -318,6 +318,12 @@ ul li a:hover {
 
 }
 
+.games-boxGame:hover {
+  transform: translate(-10px, -10px);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 3px -2px 5px #002b5b;
+}
+
 .img-container {
   border-top-right-radius: 50px;
   border-top-left-radius: 50px;
