@@ -9,7 +9,7 @@
 body {
   height: 100vh;
   background-color: #eeeeee;
-  width: 90%;
+  width: 100%;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -35,15 +35,19 @@ main div p {
 header {
   color: #002b5b;
   position: relative;
-  margin: 0;
+  margin: 0 auto;
   top: 0;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   padding: 12px 10px;
+  min-width: 97%;
+
 }
 
 .header-section {
   display: flex;
+  
 }
 
 header section h1 {
@@ -61,23 +65,10 @@ nav {
 ul {
   list-style: none;
   padding-left: 0;
-  display: flex;
+  display: none;
   gap: 60px;
 }
 
-ul li a {
-  display: flex;
-  text-decoration: none;
-  font-weight: 600;
-  color: #002b5b;
-  padding: 10px 20px;
-  transition: all 0.15s ease;
-}
-
-ul li a:hover {
-  border-bottom: 2px solid #57c5b6;
-  transform: translate(-3px, -3px);
-}
 
 .shadow-line {
   position: absolute;
@@ -88,6 +79,16 @@ ul li a:hover {
   border-width: 1px;
   border-radius: 5px;
   box-shadow: 1px 2px 5px rgba(26, 95, 122, 0.75);
+}
+
+.header-menu{
+  border: none;
+  
+}
+
+.header-menu img{
+  width: 40px;
+  height: 40px;
 }
 
 /* FLOAT IMAGES */
@@ -481,17 +482,17 @@ ul li a:hover {
 footer {
   background-color: #002b5b;
   color: #ffffff;
-  border-top-right-radius: 50px;
-  border-top-left-radius: 50px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
   padding: 45px;
   display: flex;
   gap: 25%;
   height: 80px;
   justify-content: space-evenly;
   align-items: center;
-  border-top: 2px solid #159895;
-  border-left: 2px solid #159895;
-  border-right: 2px solid #159895;
+  border-top: 2px solid #1a5f7a;
+  border-left: 2px solid #1a5f7a;
+  border-right: 2px solid #1a5f7a;
 }
 
 footer section {
@@ -507,4 +508,58 @@ footer section {
 .footer-icon {
   text-decoration: none;
   color: #fff;
+}
+
+
+
+/* RESPONSIVE */
+
+
+@media screen and (min-width: 1280px) {
+
+  body {
+    width: 92%;
+  }
+
+  /* HEADER */
+
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    gap: 60px;
+  }
+  
+  ul li a {
+    display: flex;
+    text-decoration: none;
+    font-weight: 600;
+    color: #002b5b;
+    padding: 10px 20px;
+    transition: all 0.15s ease;
+  }
+  
+  ul li a:hover {
+    border-bottom: 2px solid #57c5b6;
+    transform: translate(-3px, -3px);
+  }
+
+  .header-menu {
+    display: none;
+  }
+
+
+
+
+
+
+  /* FOOTER */
+
+  
+  
 }
