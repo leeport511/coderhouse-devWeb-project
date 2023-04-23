@@ -250,9 +250,10 @@ ul {
 
 .about-main {
   display: flex;
-  gap: 8rem;
-  padding: 40px;
+  flex-direction: column;
+  padding: 20px;
   justify-content: center;
+  align-items: center;
 }
 
 .about-section-l {
@@ -261,12 +262,16 @@ ul {
   align-items: center;
   text-align: center;
   gap: 50px;
+  margin-bottom: 60px;
 }
 
 .about-video {
   outline: 3px solid #1a5f7a;
   box-shadow: 5px 5px 60px #002b5b;
   border-radius: 10px;
+  width: 100%;
+  height: auto;
+  order: 4;
 }
 
 .about-logo-container {
@@ -274,27 +279,27 @@ ul {
 }
 
 .about-logo {
-  width: 210px;
-  height: 210px;
+  width: 150px;
+  height: 150px;
   filter: drop-shadow(20px 15px 15px #1a5f7a);
 }
 
 .about-logo-container h5 {
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 800;
 }
 
 .about-section-r {
-  max-width: 40%;
-  margin-top: 20px;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 5px;
 }
 
 .about-section-r h2 {
   font-weight: 800;
   font-size: 72px;
+  text-align: center;
   color: #57c5b6;
   -webkit-text-stroke: 1px #159895;
 }
@@ -302,7 +307,8 @@ ul {
 .about-section-r p {
   color: #606060;
   font-size: 15px;
-  margin-top: 20px;
+  margin-top: 5px;
+  text-align: justify;
 }
 
 /* GAMES */
@@ -680,7 +686,75 @@ footer section {
   }
 
 
+  /* ABOUT US */
 
+  .about-main {
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+    padding: 40px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .about-section-l {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+  }
+  
+  .about-video {
+    outline: 3px solid #1a5f7a;
+    box-shadow: 5px 5px 60px #002b5b;
+    border-radius: 10px;
+    width: 528px;
+    height: 345px;
+    order: 0;
+  }
+  
+  .about-logo-container {
+    line-height: 0.5em;
+  }
+  
+  .about-logo {
+    width: 210px;
+    height: 210px;
+    filter: drop-shadow(20px 15px 15px #1a5f7a);
+  }
+  
+  .about-logo-container h5 {
+    font-size: 22px;
+    font-weight: 800;
+  }
+  
+  .about-section-r {
+    max-width: 40%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .about-section-r h2 {
+    font-weight: 800;
+    font-size: 72px;
+    text-align: left;
+    color: #57c5b6;
+    -webkit-text-stroke: 1px #159895;
+  }
+  
+  .about-section-r p {
+    color: #606060;
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+
+
+  
 
   /* FOOTER */
 
