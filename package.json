@@ -1,0 +1,14 @@
+{
+  "name": "proyecto-final",
+  "version": "1.0.0",
+  "description": "- https://app.moqups.com/lBextfeI9KWs1GrdHry26aEZfMYbWkhD/view/page/a96191b33",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "sass ./sass/main.scss ./css/main.css -w"
+  },
+  "author": "\"Leonardo Portillo\"",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.62.1"
+  }
+}
