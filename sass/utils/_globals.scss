@@ -1,0 +1,47 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    background-color: $backgroundWhite;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: "red hat display", sans-serif;
+  }
+  
+  main {
+    flex: 1;
+    padding: 10px 30px;
+    margin-top: 5px;
+  }
+  
+  main div p {
+    color: $textGray;
+  }
+  
+  .font-color {
+    color: $darkBlue;
+  }
+
+
+
+  @media screen and (min-width: 1280px) {
+
+  
+    body {
+      width: 92%;
+    }
+  
+    main {
+      flex: 1;
+      padding: 20px 60px;
+      margin-top: 10px;
+    }
+
+}
