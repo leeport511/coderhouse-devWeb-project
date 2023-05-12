@@ -17,6 +17,11 @@
     .footer-icon {
       text-decoration: none;
       color: #fff;
+      transition: all 0.3s linear;
+
+      &:hover {
+        transform: scale(1.15);
+      }
     }
   }
 
