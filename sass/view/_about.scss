@@ -1,0 +1,134 @@
+/* ABOUT US */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+
+  &-section-l {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    margin-bottom: 60px;
+
+    .about-video {
+        outline: 3px solid $lightBlue;
+        box-shadow: 5px 5px 60px $darkBlue;
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+        order: 4;
+      }
+
+      .about-logo-container {
+        line-height: 0.5em;
+
+        .about-logo {
+            width: 150px;
+            height: 150px;
+            filter: drop-shadow(20px 15px 15px #1a5f7a);
+          }
+
+          h5{
+            font-size: 16px;
+            font-weight: 800;
+          }
+      }
+  }
+
+  &-section-r {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    h2 {
+        font-weight: 800;
+        font-size: 72px;
+        text-align: center;
+        color: $lightGreenWater;
+        -webkit-text-stroke: 1px $darkGreenWater;
+    }
+
+    p {
+        color: $textGray;
+        font-size: 15px;
+        margin-top: 5px;
+        text-align: justify;
+    }
+  }
+}
+
+
+
+@media screen and (min-width: 1280px) {
+  /* ABOUT US */
+
+  .about {
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+    padding: 40px;
+    justify-content: center;
+    align-items: flex-start;
+
+    &-section-l {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 50px;
+
+      .about-video {
+        outline: 3px solid #1a5f7a;
+        box-shadow: 5px 5px 60px #002b5b;
+        border-radius: 10px;
+        width: 528px;
+        height: 345px;
+        order: 0;
+      }
+
+      .about-logo-container {
+        line-height: 0.5em;
+
+        .about-logo {
+          width: 210px;
+          height: 210px;
+          filter: drop-shadow(20px 15px 15px #1a5f7a);
+        }
+
+        h5 {
+          font-size: 22px;
+          font-weight: 800;
+        }
+      }
+    }
+
+    &-section-r {
+      max-width: 40%;
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      h2 {
+        font-weight: 800;
+        font-size: 72px;
+        text-align: left;
+        color: $lightGreenWater;
+        -webkit-text-stroke: 1px $darkGreenWater;
+      }
+
+      p {
+        color: $textGray;
+        font-size: 15px;
+        margin-top: 20px;
+        text-align: left;
+      }
+    }
+  }
+}
