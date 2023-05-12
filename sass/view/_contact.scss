@@ -1,0 +1,151 @@
+/* CONTACT */
+
+.contact {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+
+  &-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    &-title {
+      text-align: center;
+      margin-bottom: 30px;
+      color: $lightGreenWater;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 48px;
+      -webkit-text-stroke: 1px $darkGreenWater;
+    }
+
+    &-form {
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      min-width: 320px;
+
+      label {
+        margin-bottom: 8px;
+        font-size: 18px;
+        font-weight: 600;
+      }
+
+      input {
+        margin-bottom: 30px;
+        height: 45px;
+        border-radius: 5px;
+        border: 1px solid $darkBlue;
+        outline: none;
+        padding: 5px;
+        font-size: 15px;
+
+        &:focus {
+          box-shadow: 2px 2px 50px $darkBlue;
+          border: 2px solid $lightBlue;
+        }
+      }
+
+      textarea {
+        margin-bottom: 30px;
+        border-radius: 5px;
+        border: 1px solid $darkBlue;
+        outline: none;
+        padding: 5px;
+        font-size: 15px;
+
+        &:focus {
+          box-shadow: 2px 2px 50px $darkBlue;
+          border: 2px solid $lightBlue;
+        }
+      }
+
+      button {
+        width: 150px;
+        margin: 0 auto;
+        height: 40px;
+        border: 1px solid $darkGreenWater;
+        border-radius: 10px;
+        color: #fff;
+        background-color: $lightGreenWater;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 18px;
+        padding: 5px;
+
+        &:hover {
+          background-color: $darkGreenWater;
+          border: 1px solid $lightGreenWater;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .logo-contact-right {
+    left: 200px;
+    top: 100px;
+    transform: rotate(-30deg);
+    display: none;
+  }
+
+  .logo-contact-left {
+    right: 200px;
+    bottom: 100px;
+    transform: rotate(30deg);
+    display: none;
+  }
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 1280px) {
+  /* CONTACT */
+
+  .contact {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+
+    &-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 80%;
+
+      &-title {
+        text-align: center;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 65px;
+        
+      }
+
+      &-form {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        min-width: 300px;
+      }
+    }
+    .logo-contact-right {
+      left: 200px;
+      top: 100px;
+      transform: rotate(-30deg);
+      display: inline-block;
+    }
+
+    .logo-contact-left {
+      right: 200px;
+      bottom: 100px;
+      transform: rotate(30deg);
+      display: inline-block;
+    }
+  }
+}
