@@ -82,6 +82,7 @@ main div p {
   position: relative;
   display: none;
   z-index: 30;
+  transition: all 0.5s linear;
 }
 .header-nav-menu .header-nav-mobile {
   list-style: none;
@@ -97,19 +98,19 @@ main div p {
   top: 43px;
 }
 .header-nav-menu .header-nav-mobile li {
-  margin: 0 40px;
+  width: 100%;
+  transition: all 0.4s ease-out;
+  border-radius: 20px;
 }
 .header-nav-menu .header-nav-mobile li:hover {
-  width: 100%;
-  background-color: #1a5f7a;
-  border-radius: 20px;
+  background-color: rgba(87, 197, 182, 0.1450980392);
 }
 .header-nav-menu .header-nav-mobile li a {
   display: flex;
   justify-content: center;
   font-size: 20px;
   padding: 15px;
-  color: #fff;
+  color: #eeeeee;
   text-decoration: none;
 }
 .header-nav .shadow-line {
@@ -125,6 +126,7 @@ main div p {
 .header-nav .header-menu {
   border: none;
   cursor: pointer;
+  background: unset;
 }
 .header-nav .header-menu img {
   width: 40px;
@@ -683,7 +685,10 @@ main div p {
   border: 1px solid #002b5b;
   outline: none;
   padding: 5px;
+  color: #002b5b;
   font-size: 15px;
+  font-family: "red hat display", sans-serif;
+  transition: all 0.5s ease-in-out;
 }
 .contact-container-form input:focus {
   box-shadow: 2px 2px 50px #002b5b;
@@ -696,6 +701,10 @@ main div p {
   outline: none;
   padding: 5px;
   font-size: 15px;
+  resize: none;
+  color: #002b5b;
+  font-family: "red hat display", sans-serif;
+  transition: all 0.5s ease-in-out;
 }
 .contact-container-form textarea:focus {
   box-shadow: 2px 2px 50px #002b5b;
@@ -713,11 +722,13 @@ main div p {
   font-weight: 500;
   font-size: 18px;
   padding: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
 }
 .contact-container-form button:hover {
   background-color: #159895;
-  border: 1px solid #57c5b6;
-  cursor: pointer;
+  border: 1px solid rgba(87, 197, 182, 0.062745098);
+  font-size: 19px;
 }
 .contact .logo-contact-right {
   left: 200px;

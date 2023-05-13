@@ -42,7 +42,10 @@
         border: 1px solid $darkBlue;
         outline: none;
         padding: 5px;
+        color: $darkBlue;
         font-size: 15px;
+        font-family: "red hat display", sans-serif;
+        transition: all 0.5s ease-in-out;
 
         &:focus {
           box-shadow: 2px 2px 50px $darkBlue;
@@ -57,6 +60,10 @@
         outline: none;
         padding: 5px;
         font-size: 15px;
+        resize: none;
+        color: $darkBlue;
+        font-family: "red hat display", sans-serif;
+        transition: all 0.5s ease-in-out;
 
         &:focus {
           box-shadow: 2px 2px 50px $darkBlue;
@@ -76,11 +83,13 @@
         font-weight: 500;
         font-size: 18px;
         padding: 5px;
+        transition: all 0.5s;
+        cursor: pointer;
 
         &:hover {
           background-color: $darkGreenWater;
-          border: 1px solid $lightGreenWater;
-          cursor: pointer;
+          border: 1px solid $lightGreenWaterTransparent;
+          font-size: 19px;
         }
       }
     }
@@ -124,7 +133,6 @@
         text-transform: uppercase;
         font-weight: bold;
         font-size: 65px;
-        
       }
 
       &-form {
