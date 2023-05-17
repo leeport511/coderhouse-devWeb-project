@@ -22,7 +22,7 @@
     box-shadow: 3px -2px 20px #002b5b;
 
     &:hover {
-      transform: translate(-10px, -10px);
+      transform: translate(-0px, -12px);
       transition: all 0.3s ease-in-out;
       box-shadow: 3px -2px 5px #002b5b;
     }
@@ -52,6 +52,7 @@
         font-size: 26px;
         line-height: 26px;
         text-transform: uppercase;
+        height: 60px;
       }
 
       p {

@@ -28,6 +28,13 @@ main div p {
   color: #002b5b;
 }
 
+.disabled {
+  pointer-events: none;
+  color: #bbbbbb;
+  text-decoration: none;
+  cursor: default;
+}
+
 /* FLOAT IMAGES */
 .float-logo {
   position: absolute;
@@ -167,7 +174,7 @@ main div p {
 .footer {
   background-color: #002b5b;
   color: #ffffff;
-  padding: 45px;
+  padding: 40px 15px;
   display: flex;
   height: 80px;
   justify-content: space-between;
@@ -189,10 +196,16 @@ main div p {
   transform: scale(1.15);
 }
 .footer-data {
-  font-size: 14px;
+  font-size: 12px;
+  text-align: center;
 }
 .footer-data .footer-email {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+}
+.footer-data .footer-address {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
 }
 .footer-image {
   display: none;
@@ -204,8 +217,8 @@ main div p {
     color: #ffffff;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
     display: flex;
     height: 80px;
     justify-content: space-between;
@@ -222,8 +235,13 @@ main div p {
   }
   .footer-data {
     display: flex;
-    align-items: center;
-    gap: 60px;
+    align-items: flex-start;
+    gap: 30px;
+    font-size: 16px;
+    text-align: right;
+  }
+  .footer-data .footer-address {
+    text-align: center;
   }
   .footer-image {
     display: inline-block;
@@ -267,14 +285,14 @@ main div p {
 }
 .home-button {
   background-color: #57c5b6;
-  border: 3px solid #002b5b;
+  border: 2px solid #002b5b;
   margin-top: 30px;
   margin-bottom: 30px;
   padding: 10px;
   width: 150px;
-  border-radius: 50px;
-  font-size: 15px;
-  font-weight: bold;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 500;
   text-align: center;
   cursor: pointer;
   transition: all 0.7s ease;
@@ -286,6 +304,7 @@ main div p {
 .home-button:hover {
   background-color: #159895;
   box-shadow: 2px 2px 20px #002b5b;
+  font-size: 19px;
 }
 
 /* SERVICES */
@@ -541,10 +560,10 @@ main div p {
   }
   .about-section-r {
     max-width: 40%;
-    margin-top: 20px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
   }
   .about-section-r h2 {
     font-weight: 800;
@@ -557,7 +576,7 @@ main div p {
     color: #606060;
     font-size: 15px;
     margin-top: 20px;
-    text-align: left;
+    text-align: justify;
   }
 }
 /* GAMES */
@@ -582,7 +601,7 @@ main div p {
   box-shadow: 3px -2px 20px #002b5b;
 }
 .games-boxGame:hover {
-  transform: translate(-10px, -10px);
+  transform: translate(0px, -12px);
   transition: all 0.3s ease-in-out;
   box-shadow: 3px -2px 5px #002b5b;
 }
@@ -609,6 +628,7 @@ main div p {
   font-size: 26px;
   line-height: 26px;
   text-transform: uppercase;
+  height: 60px;
 }
 .games-boxGame .boxGame-text-container p {
   margin-bottom: 30px;
@@ -653,6 +673,7 @@ main div p {
   padding-top: 20px;
   padding-bottom: 20px;
   position: relative;
+  margin-bottom: 20px;
 }
 .contact-container {
   display: flex;
@@ -716,8 +737,8 @@ main div p {
   width: 150px;
   margin: 0 auto;
   height: 40px;
-  border: 1px solid #159895;
-  border-radius: 10px;
+  border: 2px solid #002b5b;
+  border-radius: 20px;
   color: #fff;
   background-color: #57c5b6;
   text-transform: uppercase;
@@ -729,7 +750,7 @@ main div p {
 }
 .contact-container-form button:hover {
   background-color: #159895;
-  border: 1px solid rgba(87, 197, 182, 0.062745098);
+  box-shadow: 2px 2px 20px #002b5b;
   font-size: 19px;
 }
 .contact .logo-contact-right {

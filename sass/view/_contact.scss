@@ -6,6 +6,7 @@
   padding-top: 20px;
   padding-bottom: 20px;
   position: relative;
+  margin-bottom: 20px;
 
   &-container {
     display: flex;
@@ -75,8 +76,8 @@
         width: 150px;
         margin: 0 auto;
         height: 40px;
-        border: 1px solid $darkGreenWater;
-        border-radius: 10px;
+        border: 2px solid $darkBlue;
+        border-radius: 20px;
         color: #fff;
         background-color: $lightGreenWater;
         text-transform: uppercase;
@@ -88,7 +89,7 @@
 
         &:hover {
           background-color: $darkGreenWater;
-          border: 1px solid $lightGreenWaterTransparent;
+          box-shadow: 2px 2px 20px $darkBlue;
           font-size: 19px;
         }
       }
