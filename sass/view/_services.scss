@@ -50,21 +50,21 @@
       transform: rotate(30deg);
       display: none;
     }
-    
+
     .logo-left1 {
       left: -70px;
       top: 50px;
       transform: rotate(-30deg);
       display: none;
     }
-    
+
     .logo-right2 {
       right: 140px;
       top: 80px;
       transform: rotate(30deg);
       display: none;
     }
-    
+
     .logo-left2 {
       left: 140px;
       top: 80px;
@@ -73,9 +73,6 @@
     }
   }
 }
-
-
-
 
 /* RESPONSIVE */
 
@@ -143,12 +140,12 @@
         }
       }
       .right-align {
-        p {
+         p {
           text-align: right;
         }
       }
 
-      .right-align h4 {
+      .right-align h3 {
         text-align: right;
       }
 

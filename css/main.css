@@ -265,12 +265,12 @@ main div p {
   line-height: 70px;
   margin-bottom: 10px;
 }
-.home-title h3 {
+.home-title h2 {
   font-family: "Ubuntu", sans-serif;
   font-size: 30px;
   font-weight: 400;
 }
-.home-title h3 span {
+.home-title h2 span {
   font-size: 100px;
   font-weight: 500;
 }
@@ -339,7 +339,7 @@ main div p {
   width: 90%;
   text-align: justify;
 }
-.services-container .text-container h4 {
+.services-container .text-container h3 {
   font-size: 26px;
   text-align: center;
   letter-spacing: 3px;
@@ -423,7 +423,7 @@ main div p {
     width: 40%;
     text-align: left;
   }
-  .services-container .text-container h4 {
+  .services-container .text-container h3 {
     font-size: 26px;
     text-align: left;
   }
@@ -434,7 +434,7 @@ main div p {
   .services-container .right-align p {
     text-align: right;
   }
-  .services-container .right-align h4 {
+  .services-container .right-align h3 {
     text-align: right;
   }
   .services-container .logo-right1 {
@@ -497,7 +497,7 @@ main div p {
   height: 150px;
   filter: drop-shadow(20px 15px 15px #1a5f7a);
 }
-.about-section-l .about-logo-container h5 {
+.about-section-l .about-logo-container h2 {
   font-size: 16px;
   font-weight: 800;
 }
@@ -554,7 +554,7 @@ main div p {
     height: 210px;
     filter: drop-shadow(20px 15px 15px #1a5f7a);
   }
-  .about-section-l .about-logo-container h5 {
+  .about-section-l .about-logo-container h2 {
     font-size: 22px;
     font-weight: 800;
   }
