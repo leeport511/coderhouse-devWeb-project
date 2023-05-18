@@ -69,6 +69,9 @@ main div p {
 .header-section {
   display: flex;
 }
+.header-section img {
+  width: 60px;
+}
 .header-section h1 {
   text-transform: uppercase;
   display: flex;
