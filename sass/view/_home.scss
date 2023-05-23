@@ -6,10 +6,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  @extend .background-meteor;
-  background-repeat: repeat;
-  background-position: center;
-  background-size: 6000px 6000px;
+  
 
   &-title {
     line-height: 70px;

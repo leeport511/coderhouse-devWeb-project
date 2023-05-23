@@ -7,10 +7,7 @@
   padding-bottom: 20px;
   position: relative;
   margin-bottom: 20px;
-  @extend .background-meteor;
-  background-repeat: repeat;
-  background-position: center;
-  background-size: 5000px 5000px;
+ 
 
   &-container {
     display: flex;

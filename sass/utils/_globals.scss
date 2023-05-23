@@ -14,6 +14,10 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "red hat display", sans-serif;
+  background-image: url(../../assets/images/Meteor.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 7000px 7000px;
 }
 
 main {
@@ -50,12 +54,12 @@ main div p {
   height: 90px;
 }
 
-.background-meteor {
-  background-image: url(../../assets/images/Meteor.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
+// .background-meteor {
+//   background-image: url(../../assets/images/Meteor.svg);
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   background-size: cover;
+// }
 
 // RESPONSIVE
 

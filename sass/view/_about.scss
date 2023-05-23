@@ -6,10 +6,7 @@
   padding: 20px;
   justify-content: center;
   align-items: center;
-  @extend .background-meteor;
-  background-repeat: repeat;
-  background-position: center;
-  background-size: 9000px 9000px;
+  
 
   &-section-l {
     display: flex;
