@@ -18,6 +18,10 @@ main {
   flex: 1;
   padding: 10px 30px;
   margin-top: 5px;
+  background-image: url(../../assets/images/Meteor.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 main div p {
@@ -598,6 +602,7 @@ main div p {
 .games-boxGame {
   width: 300px;
   text-align: center;
+  background-color: #eeeeee;
   border: 1px solid #002b5b;
   border-radius: 50px;
   display: grid;
