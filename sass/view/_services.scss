@@ -7,6 +7,10 @@
   justify-content: center;
   margin-top: 30px;
   padding-top: 10px;
+  @extend .background-meteor;
+  background-repeat: repeat;
+  background-position: center;
+  background-size: 9000px 9000px;
 
   &-container {
     display: flex;
@@ -49,6 +53,7 @@
       top: 50px;
       transform: rotate(30deg);
       display: none;
+      
     }
 
     .logo-left1 {

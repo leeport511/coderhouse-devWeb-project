@@ -7,6 +7,10 @@
   align-items: center;
   gap: 40px;
   flex-wrap: wrap;
+  @extend .background-meteor;
+  background-repeat: repeat;
+  background-position: center;
+  background-size: 4000px 4000px;
 
   h2 {
     font-weight: 700;

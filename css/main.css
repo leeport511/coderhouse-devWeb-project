@@ -18,10 +18,6 @@ main {
   flex: 1;
   padding: 10px 30px;
   margin-top: 5px;
-  background-image: url(../../assets/images/Meteor.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 main div p {
@@ -48,6 +44,13 @@ main div p {
 .float-logo img {
   width: 90px;
   height: 90px;
+}
+
+.background-meteor, .contact, .games, .about, .services, .home {
+  background-image: url(../../assets/images/Meteor.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 @media screen and (min-width: 1280px) {
@@ -267,6 +270,9 @@ main div p {
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-repeat: repeat;
+  background-position: center;
+  background-size: 6000px 6000px;
 }
 .home-title {
   line-height: 70px;
@@ -322,6 +328,9 @@ main div p {
   justify-content: center;
   margin-top: 30px;
   padding-top: 10px;
+  background-repeat: repeat;
+  background-position: center;
+  background-size: 9000px 9000px;
 }
 .services-container {
   display: flex;
@@ -479,6 +488,9 @@ main div p {
   padding: 20px;
   justify-content: center;
   align-items: center;
+  background-repeat: repeat;
+  background-position: center;
+  background-size: 9000px 9000px;
 }
 .about-section-l {
   display: flex;
@@ -594,6 +606,9 @@ main div p {
   align-items: center;
   gap: 40px;
   flex-wrap: wrap;
+  background-repeat: repeat;
+  background-position: center;
+  background-size: 4000px 4000px;
 }
 .games h2 {
   font-weight: 700;
@@ -682,6 +697,9 @@ main div p {
   padding-bottom: 20px;
   position: relative;
   margin-bottom: 20px;
+  background-repeat: repeat;
+  background-position: center;
+  background-size: 5000px 5000px;
 }
 .contact-container {
   display: flex;
